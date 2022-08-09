@@ -9,19 +9,7 @@ a.navbar-brand {
 
 /* Provide sufficient contrast against white background */
 a {
-  color: #0366d6;
-}
-
-.btn-primary {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
-}
-
-.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
+  color: white;
 }
 
 /* Sticky footer styles
@@ -46,11 +34,6 @@ html {
   box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
 }
 
-button.accept-policy {
-  font-size: 1rem;
-  line-height: inherit;
-}
-
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
@@ -62,6 +45,53 @@ body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
   background-color: hotpink;
+  color: white;
+}
+h1{
+  font-family: cursive;
+}
+.header{
+  color: hotpink;
+  min-height: 25vh;
+  font-family:cursive; 
+	font-size: 2.75rem;
+  padding: 1rem;
+  margin: auto;
+	-webkit-text-stroke: 1px #f9f9f9;
+	text-shadow: -1px 1px 2px #f9f9f9,
+				  1px 1px 2px #f9f9f9,
+				  1px -1px 0 #f9f9f9,
+				  -1px -1px 0 #f9f9f9;
+}
+.navMenu{
+  color: hotpink;
+  font-family: cursive;
+  font-size: 1.5rem;
+  -webkit-text-stroke: 1px hotpink; 
+  margin: 1rem;
+}
+
+.navMenu:link {
+  transition: all .5s ease-in-out;
+  font-family: cursive;
+}
+.navMenu:hover{
+  color:white;
+  transform: scale(1.5); 
+  font-family: cursive;
+}
+
+.lips{
+  max-height: 3rem;
+}
+
+img{
+  height: 50%;
+}
+
+.newClient{
+  margin: 1rem;
+  padding: .5rem;
 }
 .footer {
   position: absolute;
@@ -70,3 +100,5 @@ body {
   white-space: nowrap;
   line-height: 60px; /* Vertically center the text there */
 }
+
+
